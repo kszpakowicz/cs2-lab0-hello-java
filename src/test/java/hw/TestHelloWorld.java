@@ -37,7 +37,7 @@ public class TestHelloWorld {
   public void getMessage2() { // this test itself is broken - fix it!
     // it produces an error before being able to test the assertion -> RED
     final HelloWorld[] fixtures = new HelloWorld[] {fixture};
-    final String actual = fixtures[1].getMessage();
+    final String actual = fixtures[0].getMessage();
     assertEquals("hello world", actual);
   }
 }
